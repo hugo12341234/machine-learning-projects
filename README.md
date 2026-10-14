@@ -44,8 +44,7 @@ Classifies 28×28 grayscale clothing images into 10 categories.
 - Built a custom PyTorch `Dataset` and `DataLoader` pipeline from raw CSV pixels.
 - Trained a multilayer perceptron (784 → 256 → 128 → 10) with BatchNorm, ReLU, Dropout and the Adam optimizer.
 - Analyzed the confusion matrix: the model handles shoes and trousers well and struggles with similar upper-body garments (shirt vs. T-shirt).
-
-> Notebooks 1 and 2 are written in English; notebook 3 is mostly in Spanish.
+- Identified overfitting from the small training set and outlined next steps (full 60k dataset, CNN).
 
 ## Running the Notebooks
 
